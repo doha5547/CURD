@@ -1,0 +1,141 @@
+
+body {
+    color: #404E67;
+    background: #e7e7e7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.table-wrapper {
+    width: 1000px auto;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .05);
+}
+
+.table-title {
+    padding-bottom: 10px;
+    margin: 0 0 10px;
+}
+
+.table-title h2 {
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+
+.table-title .add-new i {
+    margin-right: 4px;
+}
+
+table.table {
+    table-layout: fixed;
+}
+
+table.table tr th,
+table.table tr td {
+    border-color: #e9e9e9;
+}
+
+
+table.table th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+table.table th:last-child {
+    width: 100px;
+}
+
+table.table td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}
+
+
+table.table td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}
+
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+table.table .form-control.error {
+    border-color: #f50019;
+}
+
+table.table td .add {
+    display: none;
+}
+.container{
+
+margin-top: 100px;
+}
+.id {
+    text-align: center;
+    width: 50px;
+}
+.name,
+.email,
+.phone{
+    text-align: center;
+}
+.btn-success{
+    border-color: #307abc;
+    
+    background-color: #307abc;
+}
+.btn-success:hover{
+    border-color: #2e6da4;
+    background-color: #2e6da4;
+}
+body.activeIndex .container-lg{
+    display: block;
+}
+body.activeIndex #insert{
+    display: none;
+}
+body.activeIndex #update{
+    display: none;
+}
+body.activeInsert .container-lg {
+    display: none;
+}
+
+body.activeInsert #insert {
+    display: block;
+}
+body.activeInsert #update {
+    display: none;
+}
+body.activeUpdate .container-lg {
+    display: none;
+}
+
+body.activeUpdate #update {
+    display: block;
+}
+body.activeUpdate #insert {
+    display: none;
+}
